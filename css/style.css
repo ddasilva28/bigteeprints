@@ -12,6 +12,11 @@
 *****************/
 .header{
     background: radial-gradient(#fff, #004aad);
+    width: 100%;
+    min-height: 100vh; /* Ensures the section covers the full height */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .container{
@@ -62,13 +67,14 @@ a{
     min-width: 300px;
 }
 
-.col-2 img{
-    max-width: 100%;
+.col-2 img {
+    max-width: 120%; /* Increase the size */
     padding: 50px 0px;
 }
 
+
 .yeimg img{
-    margin-right: 80px;
+    margin-right: 120px;
 }
 
 .col-2 h1{
