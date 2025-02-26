@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <!--Styles Link-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Header-->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> 
+            </div>
+        </div>
+         <!--Single Product Details-->
+            <div class="small-container single-product">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+
+                        <div class="small-img-row">
+                            <div class="small-img-col">
+                                <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="images/gallery-2.jpg" width="100%" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="images/gallery-3.jpg" width="100%" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="images/gallery-4.jpg" width="100%" class="small-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p>Home / T-Shirt</p>
+                        <h1>Formula 1  <br> Graphic Tee</h1>
+                        <h4>29.00</h4>
+                        <select>
+                            <option>Select Size</option>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                            <option>XL</option>
+                            <option>2XL</option>
+                        </select>
+                        <input type="number" value="1">
+                        <a href="cart.html" class="btn"> Add To Cart</a>
+                        <h3> Product Details <i class=" fa fa-solid fa-indent"></i></h3>
+                        <br>
+                        <p>Add a pop of color to your wardrobe with the Formula 1 Graphic Tee. Designed for ultimate comfort and style, this tee features a bold white hue and a unique, eye-catching print that stands out in any crowd. Whether you’re dressing up for a casual outing or simply relaxing at home, this versatile shirt offers a perfect blend of fashion and function.</p>
+                    </div>
+                </div>
+            </div>
+        <!--title-->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <p><a href="products.html">View More</a></p>
+            </div>
+        </div>
+        <!--Related Products-->
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg">
+                    <h4>Bold Red Graphic Tee</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>$39.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-6.jpg">
+                    <h4>Vintage Vibes Tee</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>$42.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg">
+                    <h4>Monochrome Street Tee</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>$37.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-8.jpg">
+                    <h4>Blue Wave Print Tee</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>$45.00</p>
+                </div>
+            </div>
+        </div>   
+        
+        
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">&copy; 2025 - Big Tee Prints</p>
+    </div>
+</div>
+
+
+<!--js for toggle menu-->
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/ffcc4c82f7.js" crossorigin="anonymous"></script>
+</body>
+</html>
